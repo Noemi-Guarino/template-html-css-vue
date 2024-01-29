@@ -1,27 +1,22 @@
 <script>
-import axios from 'axios';
 import { store } from '../store';
-import AppComponent from './AppComponent.vue';
+import axios from 'axios';
 
 export default {
     data() {
         return {
-        store,
+      store,
         };
     },
     methods: {
 
-    },
-    components: {
-        AppComponent,
-    },
-
+    }
 }
 </script>
 
 <template>
   <div>
-    <AppComponent/>
+    <h2>we</h2>
   </div>
 </template>
 
